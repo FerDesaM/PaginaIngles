@@ -1,0 +1,53 @@
+﻿body {
+    background: rgb(148, 148, 167);
+}
+
+label {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#REGISTRO_DE_USUARIOL {
+    margin-left: 2cm;
+}
+
+input, textarea {
+    padding: 5px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #efe9cb;
+    border: 2px solid #cfc79d;
+    outline: none;
+}
+
+    input[type="text"], textarea {
+        font-family: Arial, sans-serif;
+        font-size: 11px;
+    }
+
+select {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    padding: 5px;
+    border-radius: 25px;
+    margin-bottom: 10px;
+    background-color: #efe9cb;
+    border: 2px solid #cfc79d;
+    outline: none;
+}
+
+.btn-success {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Color de fondo verde (ejemplo) */
+    color: white; /* Color del texto */
+    text-decoration: none;
+    border: none; /* Eliminamos el borde del botón */
+    border-radius: 5px; /* Radio de las esquinas del botón */
+    cursor: pointer; /* Cambiamos el cursor al pasar sobre el botón */
+}
+
+
